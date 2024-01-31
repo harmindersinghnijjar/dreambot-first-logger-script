@@ -7,9 +7,11 @@ import org.dreambot.api.utilities.Logger;
                 version = 1.0, category = Category.WOODCUTTING, image = "")
 public class TestScript extends AbstractScript {
 
-    @Override
+        @Override
     public int onLoop() {
-        return 0;
+        Logger.log("My first script!");
+
+        return 1000;
     }
 
 }
